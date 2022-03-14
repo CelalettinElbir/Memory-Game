@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    background-color: DodgerBlue;
+
+}
+
+
+.game-card-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.game-card-container>.game-card {
+    background-color: #f1f1f1;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+
+}
+
+/* .game-card > p {
+    background-color: blueviolet;
+    color: red;
+
+} */
+button {
+    border: none;
+    border-radius: 50%;
+}
+
+.makeUnVisible {
+    color: red;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.makeVisible {
+
+    opacity: 1;
+    transition: all 1s;
+
+
+}
+.player-heart{  
+    float: right;
+    margin: 10px;
+    display: inline-flex;
+    color: rebeccapurple;
+
+}
+.player-heart > h1{  
+    margin-right:5px ;
+
+}
